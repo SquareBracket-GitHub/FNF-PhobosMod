@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Jebus.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jebus 10000" x="0" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10001" x="0" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10002" x="800" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10003" x="800" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10004" x="1600" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10005" x="1600" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10006" x="2400" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10007" x="2400" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10008" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10009" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10010" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10011" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10012" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10013" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10014" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10015" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10016" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10017" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10018" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10019" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10020" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10021" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10022" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10023" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10024" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10025" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10026" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10027" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10028" x="3200" y="0" width="800" height="800"/>
+	<SubTexture name="Jebus 10029" x="3200" y="0" width="800" height="800"/>
+</TextureAtlas>

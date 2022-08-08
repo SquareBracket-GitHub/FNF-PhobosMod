@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="creditArrow.png">
+<SubTexture name="DOWN0000" x="0" y="0" width="206" height="584" frameX="-90" frameY="-68" frameWidth="1280" frameHeight="720" />
+<SubTexture name="end0000" x="206" y="0" width="206" height="584" frameX="-90" frameY="-67" frameWidth="1280" frameHeight="720" />
+<SubTexture name="UP0000" x="412" y="0" width="206" height="584" frameX="-93" frameY="-68" frameWidth="1280" frameHeight="720" />
+<SubTexture name="start0000" x="618" y="0" width="206" height="584" frameX="-90" frameY="-69" frameWidth="1280" frameHeight="720" />
+<SubTexture name="basic0000" x="824" y="0" width="206" height="584" frameX="-90" frameY="-69" frameWidth="1280" frameHeight="720" />
+</TextureAtlas>

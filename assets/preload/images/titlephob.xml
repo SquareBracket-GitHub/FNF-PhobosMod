@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="titlephob.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Phobostitle 10000" x="0" y="0" width="1294" height="743"/>
+	<SubTexture name="Phobostitle 10001" x="1294" y="0" width="1294" height="743"/>
+	<SubTexture name="Phobostitle 10002" x="2588" y="0" width="1294" height="743"/>
+	<SubTexture name="Phobostitle 10003" x="0" y="743" width="1294" height="743"/>
+	<SubTexture name="Phobostitle 10004" x="0" y="743" width="1294" height="743"/>
+	<SubTexture name="Phobostitle 10005" x="0" y="743" width="1294" height="743"/>
+	<SubTexture name="Phobostitle 10006" x="0" y="743" width="1294" height="743"/>
+	<SubTexture name="Phobostitle 10007" x="0" y="743" width="1294" height="743"/>
+	<SubTexture name="Phobostitle 10008" x="0" y="743" width="1294" height="743"/>
+	<SubTexture name="Phobostitle 10009" x="0" y="743" width="1294" height="743"/>
+</TextureAtlas>

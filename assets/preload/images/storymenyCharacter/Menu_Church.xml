@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_church.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Church 10000" x="0" y="0" width="1056" height="1104"/>
+	<SubTexture name="Church 10001" x="1056" y="0" width="1056" height="1104"/>
+	<SubTexture name="Church 10002" x="2112" y="0" width="1056" height="1104"/>
+	<SubTexture name="Church 10003" x="0" y="1104" width="1056" height="1104"/>
+	<SubTexture name="Church 10004" x="1056" y="1104" width="1056" height="1104"/>
+	<SubTexture name="Church 10005" x="2112" y="1104" width="1056" height="1104"/>
+	<SubTexture name="Church 10006" x="0" y="2208" width="1056" height="1104"/>
+	<SubTexture name="Church 10007" x="1056" y="2208" width="1056" height="1104"/>
+</TextureAtlas>

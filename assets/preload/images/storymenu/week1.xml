@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="week1.png"><SubTexture name="week1 confilm0000" x="0" y="0" width="276" height="134" frameX="-8" frameY="-2" frameWidth="295" frameHeight="136" />
+<SubTexture name="week1 basic0000" x="0" y="134" width="276" height="134" frameX="-8" frameY="-2" frameWidth="295" frameHeight="136" />
+</TextureAtlas>

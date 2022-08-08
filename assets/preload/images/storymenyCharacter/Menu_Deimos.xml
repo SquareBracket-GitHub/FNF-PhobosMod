@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Deimos.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Deimos 10000" x="0" y="0" width="720" height="741"/>
+	<SubTexture name="Deimos 10001" x="720" y="0" width="720" height="741"/>
+	<SubTexture name="Deimos 10002" x="1440" y="0" width="720" height="741"/>
+	<SubTexture name="Deimos 10003" x="2160" y="0" width="720" height="741"/>
+	<SubTexture name="Deimos 10004" x="2880" y="0" width="720" height="741"/>
+	<SubTexture name="Deimos 10005" x="0" y="741" width="720" height="741"/>
+	<SubTexture name="Deimos 10006" x="720" y="741" width="720" height="741"/>
+	<SubTexture name="Deimos 10007" x="1440" y="741" width="720" height="741"/>
+	<SubTexture name="Deimos 10008" x="2160" y="741" width="720" height="741"/>
+	<SubTexture name="Deimos 10009" x="2880" y="741" width="720" height="741"/>
+	<SubTexture name="Deimos 10010" x="0" y="1482" width="720" height="741"/>
+	<SubTexture name="Deimos 10011" x="720" y="1482" width="720" height="741"/>
+</TextureAtlas>

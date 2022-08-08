@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MenuTricky.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Tricky 100000" x="0" y="0" width="1039" height="804"/>
+	<SubTexture name="Tricky 110000" x="1039" y="0" width="1039" height="811"/>
+	<SubTexture name="Tricky 120000" x="2078" y="0" width="1039" height="799"/>
+	<SubTexture name="Tricky 70000" x="0" y="811" width="1039" height="811"/>
+	<SubTexture name="Tricky 80000" x="1039" y="811" width="1039" height="833"/>
+	<SubTexture name="Tricky 90000" x="2078" y="811" width="1039" height="823"/>
+</TextureAtlas>

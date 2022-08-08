@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="medium.png"><SubTexture name="medium confirm0000" x="0" y="0" width="197" height="49" frameX="-1" frameY="-10" frameWidth="259" frameHeight="87" />
+<SubTexture name="medium basic0000" x="0" y="49" width="197" height="49" frameX="-1" frameY="-10" frameWidth="259" frameHeight="87" />
+</TextureAtlas>
