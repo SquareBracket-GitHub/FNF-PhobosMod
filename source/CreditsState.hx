@@ -109,12 +109,18 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Chri_Dog',            'chriDog',          'Artist\nAnimator\nDirector',                                           '',                                     '',     'Phobos Mod',                 'chriDog'],
-			['Jipsa',               'jipsa',            'Character motion',                                                     '',                                     '',     'Phobos Mod',                 'jipsa'],
-			['Micky',               'micky',            'Artist\nAnimator\nComposer\nCutscene',                                 '',                                     '',     'Phobos Mod',                 'micky'],
+			// ['Jipsa',               'jipsa',            'Character motion',                                                     '',                                     '',     'Phobos Mod',                 'jipsa'],
+			['Micky',               'micky',            'Artist\nAnimator',                                                     '',                                     '',     'Phobos Mod',                 'micky'],
 			['LK',                  'lk',               'Artist',                                                               '',                                     '',     'Phobos Mod',                 'lk'],
 			['Bamsquid',            'bamsquid',         'Artist\nIdea',                                                         '',                                     '',     'Phobos Mod',                 'bamsquid'],
-			['Grape',               'grape',            'Artist\nAnimator',                                                     '',                                     '',     'Phobos Mod',                 'grape'],
-			['Square Bracket',      'squareBracket',    'Programmer',                                                           '',                                     '',     'Phobos Mod',                 'squareBracket'],
+			// ['Grape',               'grape',            'Artist\nAnimator',                                                     '',                                     '',     'Phobos Mod',                 'grape'],
+			['Square Bracket',      'squareBracket',    'Programmer',                                                           '',                                     '',     'Phobos Mod',                  null],
+			['Chung',               'chung',            'Artist\nAnimator',                                                     '',                                     '',     'Phobos Mod',                 'chung'],
+			['Raling',              'raling',           'Composer',                                                             '',                                     '',     'Phobos Mod',                 'raling'],
+			['Nick',                'nick',             'Artist',                                                               '',                                     '',     'Phobos Mod',                 'nick'],
+			['Riodin',              'riodin',           'Cut Scene',                                                            '',                                     '',     'Phobos Mod',                 'riodin'],
+			['Daipen',              'daipen',           'Artist',                                                               '',                                     '',     'Phobos Mod',                 null],
+			['Gamemon',             'gamemon',          'Trailer',                                                              '',                                     '',     'Phobos Mod',                 'gamemon'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer\nof Psych Engine',					            		'https://twitter.com/Shadow_Mario_',	'',     'Psych Engine Team',           null],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator\nof Psych Engine',			         			'https://twitter.com/RiverOaken',		'',     'Psych Engine Team',           null],
 			['shubs',				'shubs',			'Additional\nProgrammer\nof Psych Engine',			            		'https://twitter.com/yoshubs',			'',     'Psych Engine Team',           null],
@@ -222,8 +228,8 @@ class CreditsState extends MusicBeatState
 		teamName.text = creditsStuff[curSelected][5];
 		role.text = creditsStuff[curSelected][2];
 		memberName.text = creditsStuff[curSelected][0];
-
 		//850, 50
+
 		if (creditsStuff[curSelected][6] == null) {
 			memberCharacter.loadGraphic(Paths.image('credits/' + creditsStuff[curSelected][1]));
 			memberCharacter.updateHitbox();

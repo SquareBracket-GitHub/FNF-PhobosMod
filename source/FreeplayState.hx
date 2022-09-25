@@ -56,6 +56,8 @@ class FreeplayState extends MusicBeatState
 	var extremeIcon:FlxSprite;
 	var iconGroup:FlxTypedGroup<FlxSprite> = new FlxTypedGroup<FlxSprite>();
 
+	var arrow:FlxSprite;
+
 	override function create()
 	{
 		Paths.clearStoredMemory();
@@ -120,24 +122,32 @@ class FreeplayState extends MusicBeatState
 		menuCharacter.loadGraphic(Paths.image('freeplayCharacter/menu_' + menuCharacters[Math.floor(Math.random() * menuCharacters.length)] + '_freeplay'));
 		add(menuCharacter);
 
-		var difficultyStatus:FlxSprite = new FlxSprite(25, 395).loadGraphic(Paths.image('difficulty status'));
-		difficultyStatus.antialiasing = ClientPrefs.globalAntialiasing;
-		add(difficultyStatus);
+		var difficultyController:FlxSprite = new FlxSprite(40, 400).loadGraphic(Paths.image('Difficulty controller'));
+		difficultyController.antialiasing = ClientPrefs.globalAntialiasing;
+		add(difficultyController);
 
-		easyIcon = new FlxSprite(difficultyStatus.x + 85, difficultyStatus.y + 75).loadGraphic(Paths.image('freeplaydifficulties/easy'));
+		easyIcon = new FlxSprite(difficultyController.x + 75, difficultyController.y + 90).loadGraphic(Paths.image('freeplaydifficulties/easy'));
 		easyIcon.visible = false;
 		iconGroup.add(easyIcon);
-		normalIcon = new FlxSprite(difficultyStatus.x + 85, difficultyStatus.y + 75).loadGraphic(Paths.image('freeplaydifficulties/normal'));
+		normalIcon = new FlxSprite(difficultyController.x + 75, difficultyController.y + 90).loadGraphic(Paths.image('freeplaydifficulties/normal'));
 		normalIcon.visible = true;
 		iconGroup.add(normalIcon);
-		hardIcon = new FlxSprite(difficultyStatus.x + 85, difficultyStatus.y + 75).loadGraphic(Paths.image('freeplaydifficulties/hard'));
+		hardIcon = new FlxSprite(difficultyController.x + 75, difficultyController.y + 70).loadGraphic(Paths.image('freeplaydifficulties/hard'));
 		hardIcon.visible = false;
 		iconGroup.add(hardIcon);
-		extremeIcon = new FlxSprite(difficultyStatus.x + 85, difficultyStatus.y + 75).loadGraphic(Paths.image('freeplaydifficulties/extreme'));
-		extremeIcon.visible = false;
-		iconGroup.add(extremeIcon);
+		// extremeIcon = new FlxSprite(difficultyController.x + 85, difficultyController.y + 75).loadGraphic(Paths.image('freeplaydifficulties/extreme'));
+		// extremeIcon.visible = false;
+		// iconGroup.add(extremeIcon);
 
 		add(iconGroup);
+
+		arrow = new FlxSprite(difficultyController.x, difficultyController.y);
+		arrow.frames = Paths.getSparrowAtlas('freeplayArrow');
+		arrow.animation.addByPrefix('normal', 'normal', 24, false);
+		arrow.animation.addByPrefix('pressLeft', 'left', 24, false);
+		arrow.animation.addByPrefix('pressRight', 'right', 24, false);
+		arrow.animation.play('normal');
+		add(arrow);
 
 		var shadow:FlxSprite = new FlxSprite().loadGraphic(Paths.image('freeplay shadow'));
 		shadow.screenCenter();
@@ -345,10 +355,16 @@ class FreeplayState extends MusicBeatState
 			}
 		}
 
-		if (controls.UI_LEFT_P)
+		if (controls.UI_LEFT_P) {
+			arrow.animation.stop();
+			arrow.animation.play('pressLeft');
 			changeDiff(-1);
-		else if (controls.UI_RIGHT_P)
+		}
+		else if (controls.UI_RIGHT_P) {
+			arrow.animation.stop();
+			arrow.animation.play('pressRight');
 			changeDiff(1);
+		}
 		else if (upP || downP) changeDiff();
 
 		if (controls.BACK)
